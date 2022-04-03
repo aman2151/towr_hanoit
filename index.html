@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tower of Hanoi</title>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" href="index.css"/>
+    </head>
+    <body>
+        <h1><b>Tower of Hanoi</b></h1>
+        <div id="input">
+            <input type="number" id="num"placeholder="1~14"/>
+            <button onclick="check_num()" id="button">ok</button>
+            <button onclick="auto_move()" class="auto_move">automatic</button>
+            <p id="show_respond"></p>
+        </div>
+        <div>
+            <button onclick="Prev()">Prev</button>
+            <button onclick="Next()">Next</button>
+            <p id="show_respond2"></p>
+        </div>
+        <div id="step">Step 0</div>
+        <div id="content">
+            <div id="box1"class="box">
+                <div class="bottom">bottom</div>
+            </div>
+            <div id="box2" class="box">
+                <div class="bottom">bottom</div>
+            </div>
+            <div id="box3" class="box">
+                <div class="bottom">bottom</div>
+            </div>
+        </div>
+    </body>
+    <script src="index.js"></script>
+</html>
